@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const subject = encodeURIComponent(`Contact CV — message de ${name}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
 
-    window.location.href = `mailto:contact@example.fr?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:yvankarol@gmail.com?subject=${subject}&body=${body}`;
     status.textContent = 'Votre client de messagerie va s\'ouvrir pour envoyer le message.';
   });
 
